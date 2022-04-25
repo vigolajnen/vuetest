@@ -10,6 +10,10 @@ const router = createRouter({
       component: fhCatalog,
     },
     {
+      path: "/vuetest/",
+      component: fhCatalog,
+    },
+    {
       path: "/product",
       component: fhProduct,
     },
