@@ -7,7 +7,6 @@
       v-for="item in services"
       :key="item.alias"
       :service_data="item"
-      
     />
   </section>
 </template>

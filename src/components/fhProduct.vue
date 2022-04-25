@@ -5,7 +5,6 @@
     >
       <h1
         class="product-title text-2xl font-bold my-0 mb-6 text-center md:text-left"
-        @sendTitleProduct="sendToProduct"
       >
         Мультикарта Fitness House
       </h1>
@@ -29,7 +28,9 @@
         <li>Срок действия -<b>1 год</b></li>
       </ul>
       <div class="grid grid-cols-2 gap-2 align-center lg:w-3/4">
-        <span class="text-3xl font-bold leading-normal text-brand">5000 руб.</span>
+        <span class="text-3xl font-bold leading-normal text-brand"
+          >5000 руб.</span
+        >
         <button
           class="h-10 w-auto px-5 m-2 xl:w-1/2 mr-0 ml-auto text-white transition-colors duration-150 bg-brand rounded-lg focus:shadow-outline hover:bg-brandDark"
           type="button"
@@ -58,6 +59,6 @@ export default {
     sendToProduct(data) {
       return data;
     },
-  },
+  },  
 };
 </script>
